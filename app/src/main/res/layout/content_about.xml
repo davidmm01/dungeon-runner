@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="fit3037.dmmic2.dungeonrunner.About"
+    tools:showIn="@layout/activity_about">
+
+    <ScrollView
+        android:layout_width="376dp"
+        android:layout_height="510dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/goudy_bookletter_1911"
+                android:text="Target Android API: 26\n
+\n
+Fonts: astloch bold, goudi bookletter 1911\n
+\n
+Databases: sqlite, stored locally on the device only\n
+\n
+Sensors: GPS Fine Location via Android Sensor Library\n
+\n
+Maps: Google Maps API v15\n
+\n
+Webservice:\n
+Dark Sky API (weather data)\n
+https://darksky.net/dev\n
+\n
+Open Source Library Dependencies:\n
+forecast-android\n
+https://github.com/kevinzetterstrom/forecast-android\n
+License: Apache v2.0\n
+\n
+Implementation of GPS as a Service\n
+https://github.com/miskoajkula/GPS_service\n
+https://www.youtube.com/watch?v=lvcGh2ZgHeA\n
+\n
+Chronometers\n
+https://www.youtube.com/watch?v=LzfaWf7_iHw&amp;t=173s\n
+\n
+Polylines on a google map\n
+https://stackoverflow.com/questions/16311076/how-to-dynamically-add-polylines-from-an-arraylist/25978663\n
+\n
+Application class to allow context fetching\n
+https://stackoverflow.com/questions/21818905/get-application-context-from-non-activity-singleton-class/21819009\n
+\n
+String, Date, LatLng format manipulation\n
+https://stackoverflow.com/questions/6118922/convert-seconds-value-to-hours-minutes-seconds\n
+https://stackoverflow.com/questions/5683728/convert-java-util-date-to-string\n
+https://stackoverflow.com/questions/27261670/convert-string-to-latlng\n
+\n
+Distance using Coordinates and Altitude\n
+https://stackoverflow.com/questions/3694380/calculating-distance-between-two-points-using-latitude-longitude-what-am-i-doi\n
+\n
+Turning a comma separated string into a list\n
+https://stackoverflow.com/questions/27599847/convert-comma-separated-string-to-list-without-intermediate-container\n
+\n
+Changing the font of a toolbar\n
+https://stackoverflow.com/questions/26533510/android-toolbar-center-title-and-custom-font\n
+\n
+FIT3027 Course Material Used Extensively\n
+\n"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
