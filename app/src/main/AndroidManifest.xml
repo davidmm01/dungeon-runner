@@ -69,7 +69,7 @@
         <!-- Android Google Maps API v2 Key -->
         <meta-data
             android:name="com.google.android.maps.v2.API_KEY"
-            android:value="AIzaSyBuB5jw92oWfKQcS98baRzFl2b5vSCEl8k" />
+            android:value="YOUR KEY HERE" />
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
